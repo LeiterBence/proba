@@ -1,0 +1,52 @@
+.egesz{
+    margin: auto;
+    background-color: lightgray;
+    width: 1000px;
+}
+header{
+    background-color: gray;
+    border-top: 3px solid darkblue;
+    border-bottom: 3px solid darkblue;
+    text-align: center;
+    color: white;
+}
+.tartalom{
+    text-align: justify;
+    border-top: 3px solid darkblue;
+    border-bottom: 3px solid darkblue;
+    padding: 10px;
+}
+.elso{
+    margin: auto;
+    width: 900px;
+}
+.masodik{
+    margin: auto;
+    width: 700px;
+    margin-top: 15px;
+}
+.tanulttt{
+    margin: auto;
+    width: 700px;
+}
+.tanulttt tr:nth-child(3n){
+    background-color: hsl(216, 44%, 65%);
+}
+.tanulttt tr:nth-child(3n+1){
+    background-color: white;
+}
+.tanulttt tr:nth-child(3n+2){
+    background-color: hsl(216, 44%, 80%);
+}
+.tanulttt tr{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+footer{
+    border-top: 3px solid darkblue;
+    border-bottom: 3px solid darkblue;
+    background-color: darkgray;
+    text-align: center;
+    height: 100px;
+    color: white;
+}
